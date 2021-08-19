@@ -1,0 +1,350 @@
+body{ font-family: 'Open Sans', sans-serif; color:#000; font-size:16px;}
+*{ margin:0; padding:0; box-sizing:border-box;}
+ input:focus, select:focus{outline:none;}
+ a{ text-decoration:none;}
+ img{ max-width: 100%;
+height: auto;} 
+
+#top-header{background:#1565c0;
+     height:35px;
+      width:100%;
+       display:inline-block; 
+        vertical-align:top;
+    }
+.center{
+     max-width:1110px; 
+     margin:0 auto;
+    }
+.left-header span{
+    font-size:12px; 
+    color:#fff; 
+    padding:8px 0 0 0;
+     margin:0 59px 0 0;
+      display:inline-block; 
+       vertical-align:top;
+    }
+.left-header span img{
+    vertical-align:middle;
+     margin:0 8px 0 0;
+    }
+.left-header{ 
+    float: left;
+}
+.right-header {
+    float: right;
+}
+.right-header ul{ 
+    list-style: none;
+}
+.right-header ul li{
+    float: left;
+     line-height: 30px;	
+     margin: 0 0 0 34px;
+}
+.right-header ul li a{
+    color:#fff; 
+    font-size:14px;
+}
+.right-header ul li a:hover{
+    color: red;
+}
+.container2 img{
+    padding:0  ;
+}
+.login_btn{
+    background-color:#f2d011;
+    border-radius: 30px;
+    padding: 15px 35px ;
+    outline: none;
+    border: none;
+    margin-right: 3rem;
+    margin-top:25px;
+
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+.icon{
+    color:black;
+    margin-top: 25px;
+    font-size: 28px;
+    float:right;
+}
+#banner{
+    width: 100%;
+    display:inline-block;
+    margin:25px 0 0 0;
+    position: relative;
+
+}
+#banner img{
+    width: 100%;
+}
+.banner-box{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+}
+/********banner-part*********/
+#banner{
+    width:100%; 
+    position:relative;
+}
+.banner img{
+    max-width:100%;
+}
+.banner-box{
+     width:100%;
+     position:absolute;
+      left:0;
+       top:0;
+    }
+.banner-menu{
+    text-align: center; 
+    background: #3679be;
+     border-radius:0 0 10px 10px;
+    }
+.banner-menu ul{
+    list-style:none;
+}
+.banner-menu ul li{
+    display: inline-block;
+     vertical-align:top; 
+     line-height:50px;
+      padding:0 35px;
+    }
+.banner-menu ul li a{
+    color:#fff;
+     font-size:16px;
+    }
+.banner-menu ul li a:hover{
+    color: #f2d011;
+}
+
+.banner-text ul {
+  list-style: none;
+  width: 560px;
+  background: #242522;
+  border-radius: 3px;
+padding: 15px 0 15px 20px;
+}
+
+.banner-text ul li{
+    color:#fff; 
+    font-size:18px; 
+}
+.banner-text span{
+    border-top: 1px solid #f2d011;
+     display: inline-block;
+     width: 87%;
+     margin: 0 0 0 18px;
+     padding: 6px 0 10px 0;
+}
+#banner .banner-text img {
+    width: auto;
+    vertical-align: middle;
+}
+.banner-text .no-border{
+    border:none;
+}
+.banner-text h3{
+    color: #0c3c73; 
+    font-size:36px; 
+    line-height:40px; 
+    margin:30px 0 20px 0;
+    text-transform: uppercase;
+}
+#content{
+    padding:30px;
+}
+.text-content h2{
+    font-size: 36px;
+}
+.text-main{
+    color:lightgrey;
+    padding: 0 100px 4px  100px ;
+    font-size: 16px;
+}
+.text-main p {
+    color: #000;
+    font-size: 16px;
+    line-height: 26px;
+}
+.read-btn{
+    background-color:#f2d011;
+    border-radius: 30px;
+    padding: 8px 13px ;
+    outline: none;
+    border: none;
+    margin:14px 0 0 0;
+}
+.read-btn a:hover{
+    color: blue;
+}
+/***** products-card******/
+#products{
+    font-size: x-large;
+}
+*{
+    margin: 0px;
+    padding:0px;
+}
+.card-main{text-align: center;}
+
+.image img{
+    width:100%;
+    padding:20px 0 0 0;
+   
+}
+.cards {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 35px 15px 0;
+    background: #fff;
+    border: 1px solid #cccccc;
+    padding: 20px 0 15px 0;
+    min-height: 480px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.cards h2 {
+    margin: 0 0 10px 0;
+}
+.cards p {
+    padding: 6px 12px;
+}
+.cards a{
+    display: inline-block;
+     vertical-align: top;
+      background:#f2d011;    
+       padding: 6px 15px;
+       color: #000;
+       border-radius: 30px;
+    }
+    .services-section{
+        margin: 35px 0 25px 0;
+        width: 100%;
+        display: inline-block;
+
+    }
+    .inner-width{
+        width:100%;
+        max-width:1110px;
+        margin:auto;
+        text-align: center;
+    }
+    .service-box{ 
+        float: left; 
+        width:33.33%; 
+        border-left: 1px solid #ccc; 
+        padding:20px;
+    }
+    .service-box:first-child{
+        border: none;
+    }
+    .row{
+        width: 100%; 
+        display: inline-block;
+         vertical-align:top;
+          border-bottom: 1px solid #ccc;
+        }
+    .img-box {
+        background: #f2d011;
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        border-radius: 50px;
+        
+    }
+    .img-box img {
+        padding: 24px 0 0 0;
+        
+    }
+    .client{
+        font-size: 25PX;
+        text-align: center;
+    }
+    .client-card{
+        margin: 30px 314px 30px 314px;
+    }
+.card-review{
+    font-size:14px;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    padding: 30px 15px;
+
+}
+.card-review p {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 0 15px 0;
+}
+footer{background: #1565c0 ;
+    align-items: center;
+   min-height:100%;
+    padding: 30px 15px;
+    position: relative;
+    display: inline-block;
+   width: 100%;}
+.fotter{
+    max-width: 1110px;
+    margin: 0 auto;
+   
+}
+.f-box {
+    float: left;
+    margin: 0 70px 0 0;
+}
+ul.contact {
+    width: 40%;
+}
+.contact li {
+    padding: 10px 0;
+}
+.contact li i {
+    margin: 0 10px 0 0;
+}
+.quick-link li {
+    padding: 10px 0;
+}
+.heading{
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    padding: 18px 0 0 0;
+    }
+.contact{
+    list-style: none;
+    color:#fff;
+}
+.quick-link ul li{
+    list-style: none;
+ 
+}
+.quick-link li a{
+     color:#fff;
+}
+.f-logo p{
+color:#fff;
+}
+.f-logo a{
+    color:#fff;
+}
+.f-logo{
+    width: 200px;
+    margin: 0 78px;
+}
+
+
+   
+
+
+
+    
+
+
+
